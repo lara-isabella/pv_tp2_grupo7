@@ -7,7 +7,6 @@ const calcua = (l) => {
   };
 
   let l = 7;
-  
   let area = calcua(l);
   let perimetro = calcup(l);
   
