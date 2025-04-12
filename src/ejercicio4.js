@@ -1,7 +1,6 @@
 const calcua = (l) => {
     return 2 * l;
   };
-  
   const calcup = (l) => {
     return l + l + l + l;
   };
