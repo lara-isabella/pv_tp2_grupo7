@@ -1,32 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consumo de Combustible</title>
-    <script>
-        function calcularConsumo() {
-            let kilometros = parseFloat(document.getElementById("kilometros").value);
-            let litros = parseFloat(document.getElementById("litros").value);
-            
-            if (kilometros > 0 && litros > 0) {
-                let consumo = litros / kilometros;
-                document.getElementById("resultado").innerText = "Consumo de combustible: " + consumo.toFixed(2) + " litros/km";
-            } else {
-                document.getElementById("resultado").innerText = "Por favor, ingresa valores válidos.";
-            }
-        }
-    </script>
+    <title>Document</title>
 </head>
-<body>
-    <h2>Calculadora de Consumo de Combustible</h2>
-    <label for="kilometros">Kilómetros recorridos:</label>
-    <input type="number" id="kilometros" step="any"><br><br>
-
-    <label for="litros">Litros de combustible consumidos:</label>
-    <input type="number" id="litros" step="any"><br><br>
-
-    <button onclick="calcularConsumo()">Calcular</button>
-    <p id="resultado"></p>
+<body>    
+    <script src="../../src/ejercicio11.js"></script>
 </body>
 </html>
