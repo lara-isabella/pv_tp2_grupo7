@@ -1,4 +1,4 @@
-const nombres = ["Tomas", "Lautaro", "Yamila", "Lara", "Luisana", "Martina"];
+const nombres = ["Tomas", "Lautaro", "Yamila", "Isabella", "Luisana", "Martina"];
 
 let nombreMasLargo = "";
 
