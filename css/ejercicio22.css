@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4e2288;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .salida {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 6px;
+    min-height: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
