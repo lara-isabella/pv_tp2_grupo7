@@ -10,3 +10,4 @@ function calcum(n1, n2) {
   calcum(17, 20);
   calcum(7, 18);
   calcum(7, 7);
+  
