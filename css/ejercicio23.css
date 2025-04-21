@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
