@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #00000073;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 1px 2px 6px #00000033;
+    transition: background-color 0.3s ease;
+  }
