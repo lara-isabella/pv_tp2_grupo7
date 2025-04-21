@@ -1,10 +1,7 @@
 
-let numero = prompt("Ingrese un número:");
-
-numero = parseInt(numero);
-
-if (numero % 2 === 0) {
-    alert(`El número ${numero} es par.`);
+const num = prompt("Ingrese un número: ");
+if (num % 2 == 0) {
+    alert ("El número es par");
 } else {
-    alert(`El número ${numero} es impar.`);
+    alert ("El número es impar");
 }
